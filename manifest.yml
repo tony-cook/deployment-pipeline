@@ -3,6 +3,6 @@ applications:
     path: "./dist"
     buildpacks: [https://github.com/cloudfoundry/staticfile-buildpack.git]
     random-route: true
-    memory: "256M"
+    memory: "2G"
     env:
       FORCE_HTTPS: true
